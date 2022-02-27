@@ -20,6 +20,7 @@
 		4339779227C30118008C20B8 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4339779127C30118008C20B8 /* FeedViewController.swift */; };
 		4339779427C30BEB008C20B8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4339779327C30BEB008C20B8 /* CameraViewController.swift */; };
 		4339779827C324F1008C20B8 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4339779727C324F1008C20B8 /* PostCell.swift */; };
+		43DA8CA027CB2FE700C1BFAF /* commentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43DA8C9F27CB2FE700C1BFAF /* commentCell.swift */; };
 		672E72FB4A17F2A854FEDD52 /* Pods_ins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A107BEF5602C52C05E83BCC /* Pods_ins.framework */; };
 		F15C0FA25E855FEB0E24C1A8 /* Pods_ins_insUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940D4447555E9C103EA0839F /* Pods_ins_insUITests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,7 @@
 		4339779127C30118008C20B8 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		4339779327C30BEB008C20B8 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		4339779727C324F1008C20B8 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		43DA8C9F27CB2FE700C1BFAF /* commentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commentCell.swift; sourceTree = "<group>"; };
 		84B452E4193FEDA8BE1A9FC4 /* Pods-ins-insUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ins-insUITests.release.xcconfig"; path = "Target Support Files/Pods-ins-insUITests/Pods-ins-insUITests.release.xcconfig"; sourceTree = "<group>"; };
 		89CEFDC62E3018F47A2885F3 /* Pods-insTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-insTests.release.xcconfig"; path = "Target Support Files/Pods-insTests/Pods-insTests.release.xcconfig"; sourceTree = "<group>"; };
 		940D4447555E9C103EA0839F /* Pods_ins_insUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ins_insUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +134,7 @@
 				4339779127C30118008C20B8 /* FeedViewController.swift */,
 				4339779327C30BEB008C20B8 /* CameraViewController.swift */,
 				4339779727C324F1008C20B8 /* PostCell.swift */,
+				43DA8C9F27CB2FE700C1BFAF /* commentCell.swift */,
 			);
 			path = ins;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4339779027C30101008C20B8 /* LoginViewController.swift in Sources */,
+				43DA8CA027CB2FE700C1BFAF /* commentCell.swift in Sources */,
 				4339779427C30BEB008C20B8 /* CameraViewController.swift in Sources */,
 				4334631227C2FCA80034C75E /* AppDelegate.swift in Sources */,
 				4339779227C30118008C20B8 /* FeedViewController.swift in Sources */,
